@@ -30,6 +30,7 @@ body {
     box-shadow: 0 0 10px #ffffff;
 }
 
+/* Image Styles */
 .pic {
     width: 150px;
     height: 150px;
@@ -45,6 +46,18 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+
+/* Card Text Styles */
+.name {
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.role {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* END */
