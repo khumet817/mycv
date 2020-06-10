@@ -21,7 +21,7 @@ body {
 /* START: Card Styles */
 .profile-card {
     width: 420px;
-    padding: 60px 40px;
+    padding: 60px 0;
     background: #00143D;
     color: #e3d7b5;
     overflow: hidden;
@@ -78,6 +78,26 @@ body {
     text-transform: uppercase;
     font-size: 0.8em;
     font-family: 'Montserrat', sans-serif;
+}
+
+/* CV Options Styles */
+.cv-options-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-gap: 1px;
+    background: #e3d7b5;
+    padding-top: 1px;
+    position: absolute;
+    bottom: 0;
+}
+
+.cv-options {
+    background: #00143D;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #00143D;
+    text-align: center;
 }
 
 /* END */
