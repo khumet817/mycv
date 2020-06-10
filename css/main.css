@@ -117,6 +117,21 @@ body {
     opacity: 0;
 }
 
+.options-content {
+    position: absolute;
+    font-size: 16px;
+    opacity: 0;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    color: #e3d7b5;
+}
+
+.options-content:hover {
+    opacity: 1;
+    top: 40%;
+    transition: .2s linear .2s;
+}
 
 /* END */
 
@@ -140,6 +155,14 @@ body {
 
     .cv-options:hover .icon {
         transform: scale(2.5);
+    }
+
+    .options-content:hover {
+        top: 24%;
+    }
+
+    .online-cv-option {
+        top: 77% !important;
     }
 }
 /* END */
