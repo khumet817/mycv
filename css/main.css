@@ -127,7 +127,7 @@ body {
     color: #e3d7b5;
 }
 
-.options-content:hover {
+.cv-options:hover .options-content {
     opacity: 1;
     top: 40%;
     transition: .2s linear .2s;
