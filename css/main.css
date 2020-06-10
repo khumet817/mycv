@@ -81,3 +81,12 @@ body {
 }
 
 /* END */
+
+/* START: Responsive Design */
+@media screen and (max-width: 500px) {
+    .profile-card {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+/* END */
