@@ -157,7 +157,7 @@ body {
         transform: scale(2.5);
     }
 
-    .options-content:hover {
+    .cv-options:hover .options-content {
         top: 24%;
     }
 
