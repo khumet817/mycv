@@ -126,5 +126,20 @@ body {
         width: 100vw;
         height: 100vh;
     }
+
+    .cv-options-container {
+        height: 250px;
+        grid-template-columns: 100%;
+        grid-gap: 5px;
+        padding-top: 4px;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .cv-options:hover .icon {
+        transform: scale(2.5);
+    }
 }
 /* END */
